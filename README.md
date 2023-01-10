@@ -1,8 +1,11 @@
 # crudsqlserver
 
-This project performs basic sql operations like Insert,Update,Delete,Display,clear and search.<br /><br />
+This project performs basic SQL operations like Insert,Update,Delete,Display,clear and search.<br />
 
 **Language used**<br />
 1. WPF<br />
 2. VB.Net<br />
 3. Sql Server(SSMS)<br />
+
+**Platorm Used**<br />
+Visual Studio
