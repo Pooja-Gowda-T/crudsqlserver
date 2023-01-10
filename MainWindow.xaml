@@ -1,0 +1,89 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CRUDoperation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="607" Width="900">
+    <Grid Margin="-37,-56,-432,-316" RenderTransformOrigin="0.5,0.5" >
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.093"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgHb4mnxQVvGJfE4LCiGriMXWDA2hvEKwz9l3HRIW1k3UZtTmwzqDXTvGNGwDDfA73KrU&amp;usqp=CAU"/>
+        </Grid.Background>
+        <Label x:Name="lblheader" Content="CRUD OPERATIONS" HorizontalAlignment="Left" Margin="366,43,0,0" VerticalAlignment="Top" FontStretch="UltraCondensed" FontWeight="SemiBold" FontSize="40" Height="66" Width="462" Grid.RowSpan="2">
+            <Label.Background>
+                <ImageBrush/>
+            </Label.Background>
+        </Label>
+        <Label HorizontalAlignment="Left" Margin="124,153,0,0" VerticalAlignment="Top" Grid.RowSpan="2">
+            <Label Content=""/>
+        </Label>
+        <Label Content="DESIGN" HorizontalAlignment="Left" Margin="275,239,0,0" VerticalAlignment="Top" FontSize="25" FontWeight="Medium" Grid.RowSpan="2"/>
+        <Label Content="COLOR" HorizontalAlignment="Left" Margin="269,295,0,0" VerticalAlignment="Top" FontSize="25" FontWeight="Medium" Grid.RowSpan="2"/>
+        <Label Content="INSERT DATE" HorizontalAlignment="Left" Margin="262,350,0,0" VerticalAlignment="Top" FontSize="25" FontWeight="Medium" Grid.RowSpan="2"/>
+        <Label Content="WARRANTY TYPE" HorizontalAlignment="Left" Margin="257,412,0,0" VerticalAlignment="Top" FontSize="25" FontWeight="Medium" Grid.RowSpan="2"/>
+        <Label Content="PRODUCT ID" HorizontalAlignment="Left" Margin="269,128,0,0" VerticalAlignment="Top" Height="45" Width="189" FontSize="25" FontWeight="Medium" Grid.RowSpan="2"/>
+        <Label Content="ITEM NAME" HorizontalAlignment="Left" Margin="270,179,0,0" VerticalAlignment="Top" Height="39" Width="177" FontSize="25" FontWeight="Medium" Grid.RowSpan="2"/>
+        <TextBox x:Name="Txtpid" HorizontalAlignment="Left" Margin="578,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="277" FontSize="20" Height="37" FontWeight="Regular" Grid.RowSpan="2"/>
+        <TextBox x:Name="Txt_name" HorizontalAlignment="Left" Margin="578,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="277" Height="36" FontSize="20" FontWeight="Regular" Grid.RowSpan="2"/>
+        <TextBox x:Name="Txt_design" HorizontalAlignment="Left" Margin="575,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" FontSize="20" Height="35" FontWeight="Regular" Grid.RowSpan="2"/>
+        <ComboBox x:Name="Combocolor" Text="Choose The Color" HorizontalAlignment="Left" Margin="583,296,0,0" VerticalAlignment="Top" Width="278" FontWeight="Regular" RenderTransformOrigin="0.5,0.5" Height="34" FontSize="20" Grid.RowSpan="2">
+            <ComboBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.152"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ComboBox.RenderTransform>
+            <ComboBoxItem Content="Red"/>
+            <ComboBoxItem Content="Yellow"/>
+            <ComboBoxItem Content="Blue"/>
+            <ComboBoxItem Content="Black"/>
+            <ComboBoxItem Content="Orange"/>
+            <ComboBoxItem Content="Grey"/>
+            <ComboBoxItem Content="White"/>
+        </ComboBox>
+        <DatePicker x:Name="Datee" HorizontalAlignment="Left" Margin="583,350,0,0" VerticalAlignment="Top" Width="272" Height="43" FontWeight="Regular" FontSize="20" Grid.RowSpan="2"/>
+        <RadioButton x:Name="Radioallowed" Content="Allowed" HorizontalAlignment="Left" Margin="574,419,0,0" VerticalAlignment="Top" FontWeight="Regular" FontSize="20" Height="39" Width="100" Grid.RowSpan="2"/>
+        <RadioButton x:Name="Radionallowed" Content="Not Allowed" HorizontalAlignment="Left" Margin="716,419,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Regular" Height="39" Width="128" Grid.RowSpan="2"/>
+        <Button x:Name="Btn_insert" Content="Insert" HorizontalAlignment="Left" Margin="290,506,0,0" VerticalAlignment="Top" FontWeight="Medium" FontSize="25" Height="56" Width="104" Grid.RowSpan="2"/>
+        <DataGrid x:Name="DataGridView1"   Margin="291,593,600,292" Grid.RowSpan="2" RenderTransformOrigin="0.5,0.5">
+            <DataGrid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.243"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </DataGrid.RenderTransform>
+        </DataGrid>
+        <Button x:Name="Btn_update" Content="Update" HorizontalAlignment="Left" Margin="425,506,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Height="56" Width="110" FontSize="25" FontWeight="Medium"/>
+        <Button x:Name="Btn_delete" Content="Delete" HorizontalAlignment="Left" Margin="574,506,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Height="56" Width="94" FontSize="25" FontWeight="Medium"/>
+        <Button x:Name="Btn_search" Content="Search" HorizontalAlignment="Left" Margin="879,124,0,0" VerticalAlignment="Top" Height="41" Width="124" RenderTransformOrigin="0.5,0.5" FontSize="25" FontWeight="Medium" Grid.Row="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.751"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="Btn_display" Content="Display" HorizontalAlignment="Left" Margin="703,506,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Height="56" Width="98" FontWeight="Medium" FontSize="25"/>
+        <Button x:Name="Btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="830,512,0,0" Grid.Row="1" VerticalAlignment="Top" Height="50" Width="94" FontWeight="Medium" FontSize="25"/>
+
+    </Grid>
+</Window>

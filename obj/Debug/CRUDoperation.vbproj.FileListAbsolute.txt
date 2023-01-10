@@ -1,0 +1,17 @@
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\bin\Debug\CRUDoperation.exe.config
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\bin\Debug\CRUDoperation.exe
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\bin\Debug\CRUDoperation.pdb
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\bin\Debug\CRUDoperation.xml
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\obj\Debug\CRUDoperation.vbproj.AssemblyReference.cache
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\obj\Debug\MainWindow.g.vb
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\obj\Debug\Application.g.vb
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\obj\Debug\CRUDoperation_MarkupCompile.cache
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\obj\Debug\CRUDoperation_MarkupCompile.lref
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\obj\Debug\MainWindow.baml
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\obj\Debug\CRUDoperation.g.resources
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\obj\Debug\CRUDoperation.Resources.resources
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\obj\Debug\CRUDoperation.vbproj.GenerateResource.cache
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\obj\Debug\CRUDoperation.vbproj.CoreCompileInputs.cache
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\obj\Debug\CRUDoperation.exe
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\obj\Debug\CRUDoperation.xml
+C:\Users\PoojaThammegowda\Downloads\PROJECTS\WEEKLY REPORTS\26-30\TUESDAY\MORNING\CRUDoperation\obj\Debug\CRUDoperation.pdb
