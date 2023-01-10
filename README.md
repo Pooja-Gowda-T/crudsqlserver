@@ -1,4 +1,4 @@
-# CRUD OPERATION USING SQL SERVER
+# CRUD OPERATIONS USING SQL SERVER
 
 This project performs basic SQL operations like Insert,Update,Delete,Display and Search.<br />
 
