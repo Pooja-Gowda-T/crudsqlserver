@@ -7,5 +7,5 @@ This project performs basic SQL operations like Insert,Update,Delete,Display and
 2. VB.Net<br />
 3. Sql Server(SSMS)<br />
 
-**Platorm Used**<br />
+**Platorm Used**<br /><br />
 1.Visual Studio
